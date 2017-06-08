@@ -1,0 +1,22 @@
+[
+    {
+        "key": "ctrl+alt+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+g ctrl+s",
+        "command": "git.push",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+g ctrl+l",
+        "command": "git.pull",
+        "when": "editorTextFocus"
+    }
+]
