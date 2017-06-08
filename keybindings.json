@@ -12,11 +12,16 @@
     {
         "key": "ctrl+g ctrl+s",
         "command": "git.push",
-        "when": "editorTextFocus"
+        "when": ""
     },
     {
         "key": "ctrl+g ctrl+l",
         "command": "git.pull",
-        "when": "editorTextFocus"
+        "when": ""
+    },
+    {
+        "key": "ctrl+g ctrl+c",
+        "command": "git.commitAll",
+        "when": ""
     }
 ]

@@ -1,3 +1,5 @@
 {
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
 }
