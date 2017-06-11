@@ -1,0 +1,29 @@
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+	"recommendations": [
+		"KnisterPeter.vscode-github",
+		"PeterJausovec.vscode-docker",
+		"alexnesnes.makeRunner",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+		"cmstead.jsrefactor",
+		"codezombiech.gitignore",
+		"dbaeumer.vscode-eslint",
+		"dbankier.vscode-quick-select",
+		"donjayamanne.python",
+		"eg2.vscode-npm-script",
+		"formulahendry.code-runner",
+		"jasonnutter.search-node-modules",
+		"krizzdewizz.refactorix",
+		"michelemelluso.gitignore",
+		"mkloubert.vs-script-commands",
+		"ntc.integrated-terminal-tasks",
+		"redhat.java",
+		"rogalmic.bash-debug",
+		"stubailo.ignore-gitignore",
+		"tht13.python",
+		"waderyan.nodejs-extension-pack",
+		"xabikos.JavaScriptSnippets"
+	]
+}
