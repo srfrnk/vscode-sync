@@ -6,7 +6,17 @@
     },
     {
         "key": "ctrl+d",
-        "command": "editor.action.copyLinesUpAction",
+        "command": "macros.duplicate",
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorHasSelection"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "editor.action.commentLine",
         "when": "editorTextFocus"
     },
     {
