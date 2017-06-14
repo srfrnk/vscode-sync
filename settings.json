@@ -29,6 +29,9 @@
         "KnisterPeter.vscode-github",
         "PeterJausovec.vscode-docker",
         "alexnesnes.makeRunner",
+        "Andreabbondanza.ignoregit",
+        "alefragnani.project-manager",
+        "bibhasdn.git-easy",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
         "cmstead.jsrefactor",
@@ -48,6 +51,18 @@
         "stubailo.ignore-gitignore",
         "tht13.python",
         "waderyan.nodejs-extension-pack",
-        "xabikos.JavaScriptSnippets"
+        "xabikos.JavaScriptSnippets",
+        "donjayamanne.git-extension-pack",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "felipecaputo.git-project-manager",
+        "gabrielgrinberg.auto-run-command",
+        "geddski.macros",
+        "hasanali.gitignore-templates",
+        "maelvalais.autoconf",
+        "ryu1kn.annotator",
+        "tomoki1207.pdf",
+        "yzane.markdown-pdf",
+        "ziyasal.vscode-open-in-github"
     ]
 }
