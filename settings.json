@@ -9,7 +9,7 @@
     "eslint.enable": true,
     "macros": {
         "commentDown": [
-            "editor.emmet.action.toggleComment",
+            "editor.action.commentLine",
             "cursorDown"
         ],
         "duplicate": [
@@ -24,5 +24,30 @@
             "editor.action.clipboardPasteAction",
             "editor.action.formatSelection"
         ]
-    }
+    },
+    "extensions.recommendations": [
+        "KnisterPeter.vscode-github",
+        "PeterJausovec.vscode-docker",
+        "alexnesnes.makeRunner",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "cmstead.jsrefactor",
+        "codezombiech.gitignore",
+        "dbaeumer.vscode-eslint",
+        "dbankier.vscode-quick-select",
+        "donjayamanne.python",
+        "eg2.vscode-npm-script",
+        "formulahendry.code-runner",
+        "jasonnutter.search-node-modules",
+        "krizzdewizz.refactorix",
+        "michelemelluso.gitignore",
+        "mkloubert.vs-script-commands",
+        "ntc.integrated-terminal-tasks",
+        "redhat.java",
+        "rogalmic.bash-debug",
+        "stubailo.ignore-gitignore",
+        "tht13.python",
+        "waderyan.nodejs-extension-pack",
+        "xabikos.JavaScriptSnippets"
+    ]
 }

@@ -17,7 +17,12 @@
     {
         "key": "ctrl+/",
         "command": "editor.action.commentLine",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "macros.commentDown",
+        "when": "editorTextFocus && !editorHasSelection"
     },
     {
         "key": "ctrl+g ctrl+s",
