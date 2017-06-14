@@ -24,5 +24,40 @@
             "editor.action.clipboardPasteAction",
             "editor.action.formatSelection"
         ]
-    }
+    },
+    "extensions.recommendations": [
+        "Andreabbondanza.ignoregit",
+        "PeterJausovec.vscode-docker",
+        "alefragnani.project-manager",
+        "alexnesnes.makeRunner",
+        "bibhasdn.git-easy",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "cmstead.jsrefactor",
+        "codezombiech.gitignore",
+        "dbaeumer.vscode-eslint",
+        "dbankier.vscode-quick-select",
+        "donjayamanne.git-extension-pack",
+        "donjayamanne.githistory",
+        "donjayamanne.python",
+        "eamodio.gitlens",
+        "eg2.vscode-npm-script",
+        "felipecaputo.git-project-manager",
+        "formulahendry.code-runner",
+        "gabrielgrinberg.auto-run-command",
+        "geddski.macros",
+        "hasanali.gitignore-templates",
+        "jasonnutter.search-node-modules",
+        "krizzdewizz.refactorix",
+        "maelvalais.autoconf",
+        "mkloubert.vs-script-commands",
+        "ntc.integrated-terminal-tasks",
+        "rogalmic.bash-debug",
+        "ryu1kn.annotator",
+        "tomoki1207.pdf",
+        "waderyan.nodejs-extension-pack",
+        "xabikos.JavaScriptSnippets",
+        "yzane.markdown-pdf",
+        "ziyasal.vscode-open-in-github"
+    ]
 }
