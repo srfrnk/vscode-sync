@@ -35,11 +35,23 @@
         "when": ""
     },
     {
+        "key": "ctrl+shift+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && editorHasSelect"
+    },{
         "key": "ctrl+g ctrl+c",
         "command": "git.commitAll",
         "when": ""
     },
     {
+        "key": "ctrl+k ctrl+k",
+        "command": "workbench.action.openGlobalKeybindingsFile",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+k ctrl+;",
+        "command": "extension.selectEitherQuote",
+        "when": "editorTextFocus"
+    },{
         "key": "ctrl+alt+1",
         "command": "workbench.action.terminal.focusAtIndex1",
         "when": ""
@@ -50,8 +62,9 @@
         "when": ""
     },
     {
-        "key": "ctrl+alt+3",
-        "command": "workbench.action.terminal.focusAtIndex3",
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFile",
         "when": ""
     }
+ 
 ]

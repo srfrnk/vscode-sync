@@ -1,6 +1,6 @@
 {
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
+    "files.autoSaveDelay": 3000,
     "workbench.welcome.enabled": false,
     "git.confirmSync": false,
     "editor.tabSize": 4,
@@ -63,6 +63,34 @@
         "ryu1kn.annotator",
         "tomoki1207.pdf",
         "yzane.markdown-pdf",
-        "ziyasal.vscode-open-in-github"
+        "ziyasal.vscode-open-in-github",
+        "streetsidesoftware.code-spell-checker"
+    ],
+    "cSpell.userWords": [
+        "polyfills",
+        "codelyzer",
+        "npmjs",
+        "Injectable"
+    ],
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cpp",
+        "csharp",
+        "go",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
+    "cSpell.ignorePaths":[
+        "settings.json"
     ]
 }
