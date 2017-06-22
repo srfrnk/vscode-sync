@@ -1,6 +1,6 @@
 {
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 3000,
+    "files.autoSaveDelay": 2000,
     "workbench.welcome.enabled": false,
     "git.confirmSync": false,
     "editor.tabSize": 4,
@@ -71,7 +71,10 @@
         "polyfills",
         "codelyzer",
         "npmjs",
-        "Injectable"
+        "Injectable",
+        "hammerjs",
+        "datalab",
+        "gcloud"
     ],
     "cSpell.enabledLanguageIds": [
         "c",
