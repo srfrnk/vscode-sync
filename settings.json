@@ -74,7 +74,11 @@
         "Injectable",
         "hammerjs",
         "datalab",
-        "gcloud"
+        "gcloud",
+        "vsce",
+        "ungit",
+        "geolocation",
+        "Truthy"
     ],
     "cSpell.enabledLanguageIds": [
         "c",
