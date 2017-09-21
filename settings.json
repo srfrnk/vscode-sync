@@ -29,6 +29,8 @@
         "Andreabbondanza.ignoregit",
         "Angular.ng-template",
         "CoenraadS.bracket-pair-colorizer",
+        "DavidAnson.vscode-markdownlint",
+        "DotJoshJohnson.xml",
         "EditorConfig.EditorConfig",
         "Hirse.vscode-ungit",
         "KnisterPeter.vscode-github",
@@ -41,9 +43,11 @@
         "christian-kohler.path-intellisense",
         "cmstead.jsrefactor",
         "codezombiech.gitignore",
+        "dbaeumer.jshint",
         "dbaeumer.vscode-eslint",
         "dbankier.vscode-quick-select",
         "donjayamanne.githistory",
+        "donjayamanne.jupyter",
         "donjayamanne.python",
         "eg2.tslint",
         "eg2.vscode-npm-script",
@@ -51,11 +55,13 @@
         "formulahendry.code-runner",
         "geddski.macros",
         "hasanali.gitignore-templates",
+        "itryapitsin.Scala",
         "jasonnutter.search-node-modules",
         "johnpapa.angular-essentials",
         "johnpapa.Angular2",
         "krizzdewizz.refactorix",
         "maelvalais.autoconf",
+        "magicstack.MagicPython",
         "michelemelluso.gitignore",
         "mkloubert.vs-script-commands",
         "msjsdiag.debugger-for-chrome",
@@ -76,34 +82,45 @@
         "ziyasal.vscode-open-in-github"
     ],
     "cSpell.userWords": [
+        "CHROMECAST",
+        "Kubernetes",
+        "Nginx",
+        "Postgres",
+        "akka",
         "amazonaws",
+        "backend",
         "codelyzer",
         "datalab",
+        "dtype",
         "dynamodb",
         "gcloud",
         "geolocation",
         "gmail",
         "hammerjs",
         "heatmap",
+        "hparam",
+        "hparams",
+        "integerized",
+        "mesos",
+        "mkdir",
         "moneo",
         "npmjs",
         "params",
+        "pcoll",
         "polyfills",
         "proto",
+        "ptransform",
         "repo",
         "repos",
+        "scalability",
         "shahar",
+        "socko",
         "srfrnk",
+        "textio",
+        "tfrecordio",
+        "truthy",
         "ungit",
-        "vsce",
-        "polyfills",
-        "codelyzer",
-        "npmjs",
-        "hammerjs",
-        "vsce",
-        "ungit",
-        "geolocation",
-        "truthy"
+        "vsce"
     ],
     "cSpell.enabledLanguageIds": [
         "c",
@@ -126,5 +143,19 @@
     "cSpell.ignorePaths": [
         "settings.json"
     ],
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=160"
+    ],
+    "python.linting.pylintArgs": [
+        "--max-line-length=160"
+    ],
+    "window.zoomLevel": 0,
+    "[dockerfile]": {
+        
+    },
+    "files.associations": {
+        "Docker.*": "dockerfile",
+        "Dockerfile.*": "dockerfile"
+    }
 }
