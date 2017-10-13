@@ -33,11 +33,14 @@
         "DotJoshJohnson.xml",
         "EditorConfig.EditorConfig",
         "Hirse.vscode-ungit",
+        "HookyQR.beautify",
+        "JuanBlanco.solidity",
         "KnisterPeter.vscode-github",
         "PKief.material-icon-theme",
         "PeterJausovec.vscode-docker",
         "alefragnani.project-manager",
         "alexnesnes.makeRunner",
+        "beaugunderson.solidity-extended",
         "bibhasdn.git-easy",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
@@ -69,6 +72,7 @@
         "ntc.integrated-terminal-tasks",
         "redhat.java",
         "rogalmic.bash-debug",
+        "rpinski.shebang-snippets",
         "ryu1kn.annotator",
         "shd101wyy.markdown-preview-enhanced",
         "siegebell.incremental-search",
@@ -152,10 +156,13 @@
     ],
     "window.zoomLevel": 0,
     "[dockerfile]": {
-        
+
     },
     "files.associations": {
         "Docker.*": "dockerfile",
         "Dockerfile.*": "dockerfile"
+    },
+    "jshint.options": {
+        "esversion": 6
     }
 }
