@@ -54,6 +54,7 @@
         "donjayamanne.python",
         "eg2.tslint",
         "eg2.vscode-npm-script",
+        "esbenp.prettier-vscode",
         "felipecaputo.git-project-manager",
         "formulahendry.code-runner",
         "geddski.macros",
@@ -62,11 +63,13 @@
         "jasonnutter.search-node-modules",
         "johnpapa.angular-essentials",
         "johnpapa.Angular2",
+        "johnpapa.winteriscoming",
         "krizzdewizz.refactorix",
         "maelvalais.autoconf",
         "magicstack.MagicPython",
         "michelemelluso.gitignore",
         "mkloubert.vs-script-commands",
+        "ms-vscode.azure-account",
         "msjsdiag.debugger-for-chrome",
         "natewallace.angular2-inline",
         "ntc.integrated-terminal-tasks",
@@ -86,6 +89,7 @@
         "ziyasal.vscode-open-in-github"
     ],
     "cSpell.userWords": [
+        "Avro",
         "CHROMECAST",
         "Kubernetes",
         "Nginx",
@@ -95,6 +99,7 @@
         "backend",
         "codelyzer",
         "datalab",
+        "deserialized",
         "dtype",
         "dynamodb",
         "gcloud",
@@ -164,5 +169,6 @@
     },
     "jshint.options": {
         "esversion": 6
-    }
+    },
+    "material-icon-theme.showUpdateMessage": false
 }

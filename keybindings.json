@@ -1,77 +1,87 @@
 [
-    {
-        "key": "ctrl+alt+f",
-        "command": "editor.action.formatDocument",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "macros.duplicate",
-        "when": "editorTextFocus && editorHasSelection"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorHasSelection"
-    },
-    {
-        "key": "ctrl+/",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus && editorHasSelection"
-    },
-    {
-        "key": "ctrl+/",
-        "command": "macros.commentDown",
-        "when": "editorTextFocus && !editorHasSelection"
-    },
-    {
-        "key": "ctrl+g ctrl+s",
-        "command": "git.push",
-        "when": ""
-    },
-    {
-        "key": "ctrl+g ctrl+l",
-        "command": "git.pull",
-        "when": ""
-    },
-    {
-        "key": "ctrl+shift+/",
-        "command": "editor.action.blockComment",
-        "when": "editorTextFocus && editorHasSelect"
-    },
-    {
-        "key": "ctrl+g ctrl+c",
-        "command": "git.commitAll",
-        "when": ""
-    },
-    {
-        "key": "ctrl+k ctrl+k",
-        "command": "workbench.action.openGlobalKeybindingsFile",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+`",
-        "command": "workbench.action.focusFirstEditorGroup",
-        "when": ""
-    },
-    {
-        "key": "ctrl+k ctrl+;",
-        "command": "extension.selectEitherQuote",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+1",
-        "command": "workbench.action.terminal.focusAtIndex1",
-        "when": ""
-    },
-    {
-        "key": "ctrl+alt+2",
-        "command": "workbench.action.terminal.focusAtIndex2",
-        "when": ""
-    },
-    {
-        "key": "ctrl+shift+n",
-        "command": "explorer.newFile",
-        "when": ""
-    }
+  {
+    "key": "ctrl+alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "macros.duplicate",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorHasSelection"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "macros.commentDown",
+    "when": "editorTextFocus && !editorHasSelection"
+  },
+  {
+    "key": "ctrl+g ctrl+s",
+    "command": "git.push",
+    "when": ""
+  },
+  {
+    "key": "ctrl+g ctrl+l",
+    "command": "git.pull",
+    "when": ""
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && editorHasSelect"
+  },
+  {
+    "key": "ctrl+g ctrl+c",
+    "command": "git.commitAll",
+    "when": ""
+  },
+  {
+    "key": "ctrl+k ctrl+k",
+    "command": "workbench.action.openGlobalKeybindingsFile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+`",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": ""
+  },
+  {
+    "key": "ctrl+k ctrl+;",
+    "command": "extension.selectEitherQuote",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+1",
+    "command": "workbench.action.terminal.focusAtIndex1",
+    "when": ""
+  },
+  {
+    "key": "ctrl+alt+2",
+    "command": "workbench.action.terminal.focusAtIndex2",
+    "when": ""
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFile",
+    "when": ""
+  },
+  {
+    "key": "alt+right",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+left",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  }
 ]
