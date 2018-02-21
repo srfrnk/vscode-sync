@@ -152,7 +152,6 @@
     "cSpell.ignorePaths": [
         "settings.json"
     ],
-    "workbench.iconTheme": "material-icon-theme",
     "python.formatting.autopep8Args": [
         "--max-line-length=160"
     ],
@@ -170,5 +169,11 @@
     "jshint.options": {
         "esversion": 6
     },
-    "material-icon-theme.showUpdateMessage": false
+    "material-icon-theme.showUpdateMessage": false,
+    "workbench.panel.location": "bottom",
+    "explorer.confirmDelete": false,
+    "prettier.tabWidth": 4,
+    "git.autofetch": true,
+    "terminal.integrated.fontFamily": "Ubuntu mono",
+    "terminal.integrated.fontSize": 16
 }

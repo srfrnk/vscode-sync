@@ -70,18 +70,48 @@
     "when": ""
   },
   {
+    "key": "ctrl+alt+3",
+    "command": "workbench.action.terminal.focusAtIndex3",
+    "when": ""
+  },
+  {
+    "key": "ctrl+alt+4",
+    "command": "workbench.action.terminal.focusAtIndex4",
+    "when": ""
+  },
+  {
+    "key": "ctrl+alt+5",
+    "command": "workbench.action.terminal.focusAtIndex5",
+    "when": ""
+  },
+  {
+    "key": "ctrl+alt+6",
+    "command": "workbench.action.terminal.focusAtIndex6",
+    "when": ""
+  },
+  {
     "key": "ctrl+shift+n",
     "command": "explorer.newFile",
     "when": ""
   },
+  // {
+  //   "key": "alt+right",
+  //   "command": "editor.action.smartSelect.grow",
+  //   "when": "editorTextFocus"
+  // },
+  // {
+  //   "key": "alt+left",
+  //   "command": "editor.action.smartSelect.shrink",
+  //   "when": "editorTextFocus"
+  // },
   {
     "key": "alt+right",
-    "command": "editor.action.smartSelect.grow",
+    "command": "expand_region",
     "when": "editorTextFocus"
   },
   {
     "key": "alt+left",
-    "command": "editor.action.smartSelect.shrink",
-    "when": "editorTextFocus"
+    "command": "undo_expand_region",
+    "when": "editorTextFocus && editorHasSelection"
   }
 ]
