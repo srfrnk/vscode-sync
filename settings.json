@@ -86,7 +86,24 @@
         "tomoki1207.pdf",
         "waderyan.nodejs-extension-pack",
         "xabikos.JavaScriptSnippets",
-        "ziyasal.vscode-open-in-github"
+        "ziyasal.vscode-open-in-github",
+        "donjayamanne.git-extension-pack",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "felipecaputo.git-project-manager",
+        "gabrielgrinberg.auto-run-command",
+        "geddski.macros",
+        "hasanali.gitignore-templates",
+        "maelvalais.autoconf",
+        "ryu1kn.annotator",
+        "tomoki1207.pdf",
+        "yzane.markdown-pdf",
+        "ziyasal.vscode-open-in-github",
+        "codezombiech.gitignore",
+        "eg2.tslint",
+        "eg2.vscode-npm-script",
+        "felipecaputo.git-project-manager",
+        "fknop.vscode-npm"
     ],
     "cSpell.userWords": [
         "Avro",
@@ -175,5 +192,7 @@
     "prettier.tabWidth": 4,
     "git.autofetch": true,
     "terminal.integrated.fontFamily": "Ubuntu mono",
-    "terminal.integrated.fontSize": 16
+    "terminal.integrated.fontSize": 16,
+    "git.autofetch": true,
+    "python.pythonPath": "/usr/bin/python3.6"
 }
