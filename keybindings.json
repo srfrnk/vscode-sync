@@ -37,7 +37,7 @@
   {
     "key": "ctrl+shift+/",
     "command": "editor.action.blockComment",
-    "when": "editorTextFocus && editorHasSelect"
+    // "when": "editorTextFocus && editorHasSelect"
   },
   {
     "key": "ctrl+g ctrl+c",
@@ -113,5 +113,15 @@
     "key": "alt+left",
     "command": "undo_expand_region",
     "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+\\",
+    "command": "workbench.action.toggleEditorGroupLayout",
+    "when": "editorTextFocus"
   }
 ]
