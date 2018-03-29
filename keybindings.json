@@ -123,5 +123,10 @@
     "key": "ctrl+shift+\\",
     "command": "workbench.action.toggleEditorGroupLayout",
     "when": "editorTextFocus"
-  }
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.deleteLines",
+    "when": "!editorReadonly"
+  },
 ]
