@@ -197,5 +197,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDragAndDrop": false,
     "gitlens.keymap": "alternate",
-    "prettier.singleQuote": true
+    "prettier.singleQuote": true,
+    "editor.wordWrapColumn": 200
 }
