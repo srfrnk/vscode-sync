@@ -175,7 +175,7 @@
     "python.linting.pylintArgs": [
         "--max-line-length=160"
     ],
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "[dockerfile]": {
 
     },
