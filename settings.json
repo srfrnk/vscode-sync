@@ -198,5 +198,6 @@
     "explorer.confirmDragAndDrop": false,
     "gitlens.keymap": "alternate",
     "prettier.singleQuote": true,
-    "editor.wordWrapColumn": 200
+    "editor.wordWrapColumn": 200,
+    "jshint.enable": false
 }
