@@ -196,8 +196,9 @@
     "python.pythonPath": "/usr/bin/python3.6",
     "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDragAndDrop": false,
-    "gitlens.keymap": "alternate",
+    "gitlens.keymap": "none",
     "prettier.singleQuote": true,
     "editor.wordWrapColumn": 200,
-    "jshint.enable": false
+    "jshint.enable": false,
+    "files.trimTrailingWhitespace": true
 }

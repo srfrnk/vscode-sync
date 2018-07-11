@@ -1,5 +1,4 @@
-[
-  {
+[{
     "key": "ctrl+alt+f",
     "command": "editor.action.formatDocument",
     "when": "editorTextFocus"
@@ -128,5 +127,10 @@
     "key": "ctrl+shift+k",
     "command": "editor.action.deleteLines",
     "when": "!editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "workbench.action.terminal.paste",
+    "when": "terminalFocus"
   },
 ]
