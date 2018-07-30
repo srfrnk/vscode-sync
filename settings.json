@@ -107,6 +107,7 @@
     ],
     "cSpell.userWords": [
         "Avro",
+        "Blockchain",
         "CHROMECAST",
         "Kubernetes",
         "Nginx",
@@ -121,6 +122,7 @@
         "dynamodb",
         "gcloud",
         "geolocation",
+        "githooks",
         "gmail",
         "hammerjs",
         "heatmap",
@@ -134,6 +136,7 @@
         "params",
         "pcoll",
         "polyfills",
+        "preinstall",
         "proto",
         "ptransform",
         "repo",
@@ -142,10 +145,13 @@
         "shahar",
         "socko",
         "srfrnk",
+        "testnet",
         "textio",
         "tfrecordio",
         "truthy",
+        "typedoc",
         "ungit",
+        "unmock",
         "vsce"
     ],
     "cSpell.enabledLanguageIds": [
