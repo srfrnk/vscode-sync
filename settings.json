@@ -112,6 +112,7 @@
         "Kubernetes",
         "Nginx",
         "Postgres",
+        "Upsert",
         "akka",
         "amazonaws",
         "backend",
