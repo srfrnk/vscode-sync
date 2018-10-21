@@ -109,6 +109,7 @@
         "Avro",
         "Blockchain",
         "CHROMECAST",
+        "Injectable",
         "Kubernetes",
         "Nginx",
         "Postgres",
@@ -118,14 +119,21 @@
         "backend",
         "codelyzer",
         "datalab",
+        "davnetwork",
+        "davnn",
+        "deserialize",
         "deserialized",
+        "dropoff",
         "dtype",
         "dynamodb",
+        "ethereum",
         "gcloud",
         "geolocation",
         "githooks",
         "gmail",
+        "gulpfile",
         "hammerjs",
+        "hdwallet",
         "heatmap",
         "hparam",
         "hparams",
@@ -137,12 +145,15 @@
         "npmjs",
         "params",
         "pcoll",
+        "polyfill",
         "polyfills",
         "preinstall",
         "proto",
         "ptransform",
         "repo",
         "repos",
+        "ridehailing",
+        "ropsten",
         "scalability",
         "shahar",
         "socko",
@@ -189,7 +200,8 @@
     },
     "files.associations": {
         "Docker.*": "dockerfile",
-        "Dockerfile.*": "dockerfile"
+        "Dockerfile.*": "dockerfile",
+        "*.html": "html"
     },
     "jshint.options": {
         "esversion": 6
@@ -208,5 +220,13 @@
     "prettier.singleQuote": true,
     "editor.wordWrapColumn": 200,
     "jshint.enable": false,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "[django-html]": {
+        
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.scrollback": 10000,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true
 }
