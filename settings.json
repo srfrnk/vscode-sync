@@ -107,6 +107,7 @@
     ],
     "cSpell.userWords": [
         "Avro",
+        "Blockchain",
         "CHROMECAST",
         "Kubernetes",
         "Nginx",
@@ -119,21 +120,28 @@
         "deserialized",
         "dtype",
         "dynamodb",
+        "errored",
         "gcloud",
         "geolocation",
+        "githooks",
         "gmail",
+        "gulpfile",
         "hammerjs",
+        "hdwallet",
         "heatmap",
         "hparam",
         "hparams",
         "integerized",
+        "lcov",
         "mesos",
         "mkdir",
         "moneo",
         "npmjs",
         "params",
         "pcoll",
+        "polyfill",
         "polyfills",
+        "preinstall",
         "proto",
         "ptransform",
         "repo",
@@ -142,11 +150,14 @@
         "shahar",
         "socko",
         "srfrnk",
+        "testnet",
         "textio",
         "tfrecordio",
         "truthy",
+        "typedoc",
         "ungit",
-        "vsce"
+        "vsce",
+        "yaspeller"
     ],
     "cSpell.enabledLanguageIds": [
         "c",
@@ -176,9 +187,7 @@
         "--max-line-length=160"
     ],
     "window.zoomLevel": 0,
-    "[dockerfile]": {
-
-    },
+    "[dockerfile]": {},
     "files.associations": {
         "Docker.*": "dockerfile",
         "Dockerfile.*": "dockerfile"
@@ -200,5 +209,9 @@
     "prettier.singleQuote": true,
     "editor.wordWrapColumn": 200,
     "jshint.enable": false,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.rendererType": "dom",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    ]
 }
