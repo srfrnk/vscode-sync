@@ -133,4 +133,12 @@
     "command": "workbench.action.terminal.paste",
     "when": "terminalFocus"
   },
+  {
+    "key": "ctrl+alt+pageup",
+    "command": "workbench.action.terminal.focusNext",
+  },
+  {
+    "key": "ctrl+alt+pagedown",
+    "command": "workbench.action.terminal.focusPrevious",
+  }
 ]

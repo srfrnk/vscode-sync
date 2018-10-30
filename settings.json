@@ -109,18 +109,25 @@
         "Avro",
         "Blockchain",
         "CHROMECAST",
+        "Injectable",
         "Kubernetes",
         "Nginx",
         "Postgres",
+        "Upsert",
         "akka",
         "amazonaws",
         "backend",
         "codelyzer",
         "datalab",
+        "davnetwork",
+        "davnn",
+        "deserialize",
         "deserialized",
+        "dropoff",
         "dtype",
         "dynamodb",
         "errored",
+        "ethereum",
         "gcloud",
         "geolocation",
         "githooks",
@@ -133,6 +140,7 @@
         "hparams",
         "integerized",
         "lcov",
+        "keyspace",
         "mesos",
         "mkdir",
         "moneo",
@@ -146,6 +154,8 @@
         "ptransform",
         "repo",
         "repos",
+        "ridehailing",
+        "ropsten",
         "scalability",
         "shahar",
         "socko",
@@ -157,7 +167,9 @@
         "typedoc",
         "ungit",
         "vsce",
-        "yaspeller"
+        "yaspeller",
+        "unmock",
+        "vsce"
     ],
     "cSpell.enabledLanguageIds": [
         "c",
@@ -190,7 +202,8 @@
     "[dockerfile]": {},
     "files.associations": {
         "Docker.*": "dockerfile",
-        "Dockerfile.*": "dockerfile"
+        "Dockerfile.*": "dockerfile",
+        "*.html": "html"
     },
     "jshint.options": {
         "esversion": 6
@@ -213,5 +226,10 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.rendererType": "dom",
     "java.errors.incompleteClasspath.severity": "ignore",
-    ]
+    "[django-html]": {},
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.scrollback": 10000,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true
 }
