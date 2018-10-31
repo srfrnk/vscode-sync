@@ -126,6 +126,7 @@
         "dropoff",
         "dtype",
         "dynamodb",
+        "errored",
         "ethereum",
         "gcloud",
         "geolocation",
@@ -138,6 +139,7 @@
         "hparam",
         "hparams",
         "integerized",
+        "lcov",
         "keyspace",
         "mesos",
         "mkdir",
@@ -164,6 +166,8 @@
         "truthy",
         "typedoc",
         "ungit",
+        "vsce",
+        "yaspeller",
         "unmock",
         "vsce"
     ],
@@ -195,9 +199,7 @@
         "--max-line-length=160"
     ],
     "window.zoomLevel": 0,
-    "[dockerfile]": {
-
-    },
+    "[dockerfile]": {},
     "files.associations": {
         "Docker.*": "dockerfile",
         "Dockerfile.*": "dockerfile",
@@ -221,9 +223,10 @@
     "editor.wordWrapColumn": 200,
     "jshint.enable": false,
     "files.trimTrailingWhitespace": true,
-    "[django-html]": {
-        
-    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.rendererType": "dom",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "[django-html]": {},
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.scrollback": 10000,
