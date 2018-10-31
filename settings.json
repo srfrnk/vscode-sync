@@ -228,5 +228,6 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.scrollback": 10000,
     "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": true,
+    "java.errors.incompleteClasspath.severity": "ignore"
 }

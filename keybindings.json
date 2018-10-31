@@ -134,11 +134,11 @@
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+alt+pageup",
+    "key": "ctrl+alt+pagedown",
     "command": "workbench.action.terminal.focusNext",
   },
   {
-    "key": "ctrl+alt+pagedown",
+    "key": "ctrl+alt+pageup",
     "command": "workbench.action.terminal.focusPrevious",
   }
 ]
