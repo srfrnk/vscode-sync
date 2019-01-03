@@ -231,5 +231,8 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.scrollback": 10000,
     "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": true,
+    "files.useExperimentalFileWatcher" : true,
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
 }
