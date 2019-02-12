@@ -216,7 +216,7 @@
     "terminal.integrated.fontSize": 16,
     "git.autofetch": true,
     "python.pythonPath": "/usr/bin/python3.6",
-    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.multiCursorModifier": "alt",
     "explorer.confirmDragAndDrop": false,
     "gitlens.keymap": "none",
     "prettier.singleQuote": true,
@@ -235,4 +235,14 @@
     "files.useExperimentalFileWatcher" : true,
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
+    "python.jediEnabled": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "workbench.list.keyboardNavigation": "filter",
+    "workbench.tree.horizontalScrolling":true
+    ,"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.files.newUntitledFile",
+        "workbench.action.files.openFile",
+    ],
+    "workbench.useExperimentalGridLayout":true
 }

@@ -1,4 +1,5 @@
-[{
+[
+  {
     "key": "ctrl+alt+f",
     "command": "editor.action.formatDocument",
     "when": "editorTextFocus"
@@ -23,7 +24,7 @@
     "command": "macros.commentDown",
     "when": "editorTextFocus && !editorHasSelection"
   },
-  {
+/*   {
     "key": "ctrl+g ctrl+s",
     "command": "git.push",
     "when": ""
@@ -33,17 +34,17 @@
     "command": "git.pull",
     "when": ""
   },
-  {
+ */  {
     "key": "ctrl+shift+/",
     "command": "editor.action.blockComment",
     // "when": "editorTextFocus && editorHasSelect"
   },
-  {
+/*   {
     "key": "ctrl+g ctrl+c",
     "command": "git.commitAll",
     "when": ""
   },
-  {
+ */  {
     "key": "ctrl+k ctrl+k",
     "command": "workbench.action.openGlobalKeybindingsFile",
     "when": "editorTextFocus"
@@ -109,6 +110,11 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "ctrl+shift+f12",
+    "command": "references-view.find",
+    "when": "editorHasReferenceProvider"
+  },
+  {
     "key": "alt+left",
     "command": "undo_expand_region",
     "when": "editorTextFocus && editorHasSelection"
@@ -129,6 +135,9 @@
     "when": "!editorReadonly"
   },
   {
+    "key": "ctrl+alt+c",
+    "command": "workbench.action.toggleEditorVisibility",
+  },{
     "key": "ctrl+shift+v",
     "command": "workbench.action.terminal.paste",
     "when": "terminalFocus"
@@ -140,5 +149,10 @@
   {
     "key": "ctrl+alt+pageup",
     "command": "workbench.action.terminal.focusPrevious",
-  }
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.action.gotoLine",
+    "when": "editorTextFocus"
+  },
 ]
