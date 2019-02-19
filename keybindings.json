@@ -24,6 +24,8 @@
     "command": "macros.commentDown",
     "when": "editorTextFocus && !editorHasSelection"
   },
+  { "key": "shift+f5",              "command": "workbench.action.debug.stop",
+    "when": "inDebugMode" },
 /*   {
     "key": "ctrl+g ctrl+s",
     "command": "git.push",
