@@ -109,6 +109,7 @@
         "Avro",
         "Blockchain",
         "CHROMECAST",
+        "Flink",
         "Injectable",
         "Kubernetes",
         "Nginx",
@@ -139,12 +140,13 @@
         "hparam",
         "hparams",
         "integerized",
-        "lcov",
         "keyspace",
+        "lcov",
         "mesos",
         "mkdir",
         "moneo",
         "npmjs",
+        "parallelization",
         "params",
         "pcoll",
         "polyfill",
@@ -166,10 +168,9 @@
         "truthy",
         "typedoc",
         "ungit",
-        "vsce",
-        "yaspeller",
         "unmock",
-        "vsce"
+        "vsce",
+        "yaspeller"
     ],
     "cSpell.enabledLanguageIds": [
         "c",
@@ -216,7 +217,7 @@
     "terminal.integrated.fontSize": 16,
     "git.autofetch": true,
     "python.pythonPath": "/usr/bin/python3.6",
-    "editor.multiCursorModifier": "alt",
+    "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDragAndDrop": false,
     "gitlens.keymap": "none",
     "prettier.singleQuote": true,
@@ -233,18 +234,21 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "breadcrumbs.enabled": true,
     "workbench.colorTheme": "Visual Studio Dark",
-    "files.useExperimentalFileWatcher" : true,
+    "files.useExperimentalFileWatcher": true,
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
     "python.jediEnabled": false,
     "java.configuration.checkProjectSettingsExclusions": false,
     "workbench.list.keyboardNavigation": "filter",
-    "workbench.tree.horizontalScrolling":true
-    ,"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+    "workbench.tree.horizontalScrolling": true,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.files.newUntitledFile",
         "workbench.action.files.openFile",
         "workbench.action.toggleEditorVisibility"
     ],
-    "workbench.useExperimentalGridLayout":true
+    "workbench.useExperimentalGridLayout": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.formatOnSave": true
 }
