@@ -9,13 +9,11 @@
     "eslint.enable": true,
     "macros": {
         "commentDown": [
-            "editor.action.commentLine",
-            "cursorDown"
+            "editor.action.commentLine", "cursorDown"
         ],
         "duplicate": [
             "editor.action.clipboardCopyAction",
-            "cursorRight",
-            {
+            "cursorRight", {
                 "command": "type",
                 "args": {
                     "text": " "
@@ -190,15 +188,9 @@
         "typescriptreact",
         "yml"
     ],
-    "cSpell.ignorePaths": [
-        "settings.json"
-    ],
-    "python.formatting.autopep8Args": [
-        "--max-line-length=160"
-    ],
-    "python.linting.pylintArgs": [
-        "--max-line-length=160"
-    ],
+    "cSpell.ignorePaths": ["settings.json"],
+    "python.formatting.autopep8Args": ["--max-line-length=160"],
+    "python.linting.pylintArgs": ["--max-line-length=160"],
     "window.zoomLevel": 0,
     "[dockerfile]": {},
     "files.associations": {
@@ -243,12 +235,11 @@
     "workbench.tree.horizontalScrolling": true,
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
     "terminal.integrated.commandsToSkipShell": [
-        "workbench.action.files.newUntitledFile",
-        "workbench.action.files.openFile",
-        "workbench.action.toggleEditorVisibility"
+        "workbench.action.files.newUntitledFile", "workbench.action.files.openFile", "workbench.action.toggleEditorVisibility"
     ],
     "workbench.useExperimentalGridLayout": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "unibeautify.defaultConfig": "/home/shahar/.config/Code/User/.unibeautifyrc"
 }
