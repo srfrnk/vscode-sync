@@ -168,6 +168,7 @@
         "ungit",
         "unmock",
         "vsce",
+        "xdescribe",
         "yaspeller"
     ],
     "cSpell.enabledLanguageIds": [
@@ -241,5 +242,6 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.formatOnSave": true,
-    "unibeautify.defaultConfig": "/home/shahar/.config/Code/User/.unibeautifyrc"
+    "unibeautify.defaultConfig": "/home/shahar/.config/Code/User/.unibeautifyrc",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
