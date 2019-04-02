@@ -171,6 +171,7 @@
         "ungit",
         "unmock",
         "vsce",
+        "xdescribe",
         "yaspeller"
     ],
     "cSpell.enabledLanguageIds": [
@@ -251,5 +252,6 @@
         "outputFormat": "json",
         "vs-kubernetes.knownKubeconfigs": ["/home/shahar/.kube/config"],
         "vs-kubernetes.kubeconfig": "/home/shahar/.kube/config"
-    }
+    },
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
