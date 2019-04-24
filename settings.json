@@ -146,6 +146,7 @@
         "integerized",
         "keyspace",
         "lcov",
+        "mariadb",
         "mesos",
         "mkdir",
         "moneo",
@@ -174,6 +175,7 @@
         "typedoc",
         "ungit",
         "unmock",
+        "varchar",
         "vsce",
         "xdescribe",
         "yaspeller"
@@ -269,5 +271,10 @@
     },
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.renderWhitespace": "none",
-    "jsonnet.outputFormat": "json"
+    "jsonnet.outputFormat": "json",
+    "liveshare.featureSet": "insiders",
+    "tslint.autoFixOnSave": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.quoteStyle": "single"
 }
