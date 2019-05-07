@@ -42,8 +42,6 @@
     "PeterJausovec.vscode-docker",
     "alefragnani.project-manager",
     "alexnesnes.makeRunner",
-    "Andreabbondanza.ignoregit",
-    "Angular.ng-template",
     "ArgyleWolfLabs.vscode-groovy",
     "beaugunderson.solidity-extended",
     "bibhasdn.git-easy",
@@ -51,8 +49,6 @@
     "christian-kohler.path-intellisense",
     "cmstead.jsrefactor",
     "codezombiech.gitignore",
-    "CoenraadS.bracket-pair-colorizer",
-    "DavidAnson.vscode-markdownlint",
     "dbaeumer.jshint",
     "dbaeumer.vscode-eslint",
     "dbankier.vscode-quick-select",
@@ -61,12 +57,10 @@
     "donjayamanne.git-extension-pack",
     "donjayamanne.githistory",
     "donjayamanne.jupyter",
-    "DotJoshJohnson.xml",
     "dragos.scala-lsp",
     "dzannotti.vscode-babel-coloring",
     "eamodio.gitlens",
     "ecmel.vscode-html-css",
-    "EditorConfig.EditorConfig",
     "eg2.tslint",
     "eg2.vscode-npm-script",
     "emilast.LogFileHighlighter",
@@ -82,19 +76,16 @@
     "Glavin001.unibeautify-vscode",
     "hasanali.gitignore-templates",
     "heptio.jsonnet",
-    "Hirse.vscode-ungit",
-    "HookyQR.beautify",
     "huizhou.githd",
     "itryapitsin.Scala",
     "jakebathman.mysql-syntax",
     "jasonnutter.search-node-modules",
+    "jeppeandersen.vscode-kafka",
     "johnpapa.angular-essentials",
     "johnpapa.Angular2",
     "johnpapa.vscode-peacock",
     "johnpapa.winteriscoming",
-    "JuanBlanco.solidity",
     "keyring.Lua",
-    "KnisterPeter.vscode-github",
     "krizzdewizz.refactorix",
     "LawrenceGrant.cql",
     "letrieu.expand-region",
@@ -109,14 +100,13 @@
     "ms-python.python",
     "ms-vscode.azure-account",
     "ms-vscode.cpptools",
+    "ms-vscode.vscode-typescript-tslint-plugin",
     "ms-vsliveshare.vsliveshare",
     "ms-vsliveshare.vsliveshare-audio",
     "msjsdiag.debugger-for-chrome",
     "natewallace.angular2-inline",
     "ntc.integrated-terminal-tasks",
     "pejmannikram.vscode-auto-scroll",
-    "PeterJausovec.vscode-docker",
-    "PKief.material-icon-theme",
     "redhat.java",
     "redhat.vscode-yaml",
     "rogalmic.bash-debug",
@@ -139,24 +129,10 @@
     "vscjava.vscode-java-test",
     "vscjava.vscode-maven",
     "waderyan.nodejs-extension-pack",
+    "wmaurer.change-case",
     "xabikos.JavaScriptSnippets",
     "ziyasal.vscode-open-in-github",
-    "donjayamanne.git-extension-pack",
-    "donjayamanne.githistory",
-    "eamodio.gitlens",
-    "felipecaputo.git-project-manager",
-    "geddski.macros",
-    "hasanali.gitignore-templates",
-    "maelvalais.autoconf",
-    "ryu1kn.annotator",
-    "tomoki1207.pdf",
-    "yzane.markdown-pdf",
-    "ziyasal.vscode-open-in-github",
-    "codezombiech.gitignore",
-    "eg2.tslint",
-    "eg2.vscode-npm-script",
-    "felipecaputo.git-project-manager",
-    "fknop.vscode-npm"
+    "yzane.markdown-pdf"
   ],
   "cSpell.userWords": [
     "Alexa",
@@ -351,6 +327,10 @@
       "value": "#639"
     },
     {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
       "name": "JavaScript Yellow",
       "value": "#f9e64f"
     },
@@ -378,4 +358,21 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "kafka.sasl.password": "",
+  "kafka.hosts": "kafka-broker.default.svc.cluster.local:9092",
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
 }
