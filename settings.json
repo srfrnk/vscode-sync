@@ -134,6 +134,7 @@
     "waderyan.nodejs-extension-pack",
     "wmaurer.change-case",
     "xabikos.JavaScriptSnippets",
+    "xrc-inc.jsonnet-formatter",
     "yzane.markdown-pdf",
     "ziyasal.vscode-open-in-github"
   ],
@@ -298,11 +299,15 @@
     "vs-kubernetes.knownKubeconfigs": [
       "/home/shahar/.kube/config"
     ],
-    "vs-kubernetes.kubeconfig": "/home/shahar/.kube/config"
+    "vs-kubernetes.kubeconfig": "/home/shahar/.kube/config",
+    "vs-kubernetes.minikube-path": "/home/shahar/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
   },
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.renderWhitespace": "none",
   "jsonnet.outputFormat": "json",
+  "jsonnet.extStrs": {
+    "IMAGE_VERSION": ""
+  },
   "liveshare.featureSet": "insiders",
   "tslint.autoFixOnSave": true,
   "javascript.preferences.quoteStyle": "single",
@@ -362,7 +367,7 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[java]": {
-    "editor.defaultFormatter": "none",
+    "editor.defaultFormatter": "redhat.java",
     "editor.formatOnSave": false
   },
   "[javascript]": {
@@ -383,5 +388,8 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "kafka.hosts": "localhost:9092,localhost:9094,kafka-broker.default.svc.cluster.local:9092,kafka-broker.default.svc.cluster.local:9094",
+  "kafka.hosts": "localhost:9094",
+  "[jsonnet]": {
+    "editor.defaultFormatter": ""
+  },
 }

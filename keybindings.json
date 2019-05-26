@@ -24,9 +24,12 @@
     "command": "macros.commentDown",
     "when": "editorTextFocus && !editorHasSelection"
   },
-  { "key": "shift+f5",              "command": "workbench.action.debug.stop",
-    "when": "inDebugMode" },
-/*   {
+  {
+    "key": "shift+f5",
+    "command": "workbench.action.debug.stop",
+    "when": "inDebugMode"
+  },
+  /*   {
     "key": "ctrl+g ctrl+s",
     "command": "git.push",
     "when": ""
@@ -36,17 +39,17 @@
     "command": "git.pull",
     "when": ""
   },
- */  {
+ */ {
     "key": "ctrl+shift+/",
     "command": "editor.action.blockComment",
     // "when": "editorTextFocus && editorHasSelect"
   },
-/*   {
+  /*   {
     "key": "ctrl+g ctrl+c",
     "command": "git.commitAll",
     "when": ""
   },
- */  {
+ */ {
     "key": "ctrl+k ctrl+k",
     "command": "workbench.action.openGlobalKeybindingsFile",
     "when": "editorTextFocus"
@@ -139,7 +142,8 @@
   {
     "key": "ctrl+alt+c",
     "command": "workbench.action.toggleEditorVisibility",
-  },{
+  },
+  {
     "key": "ctrl+shift+v",
     "command": "workbench.action.terminal.paste",
     "when": "terminalFocus"
@@ -157,4 +161,8 @@
     "command": "workbench.action.gotoLine",
     "when": "editorTextFocus"
   },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  }
 ]
