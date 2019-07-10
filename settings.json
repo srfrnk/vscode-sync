@@ -28,6 +28,7 @@
   },
   "extensions.recommendations": [
     "actboy168.lua-debug",
+    "ahebrank.yaml2json",
     "alefragnani.project-manager",
     "alexnesnes.makeRunner",
     "Andreabbondanza.ignoregit",
@@ -48,7 +49,6 @@
     "dlang-vscode.dlang",
     "donjayamanne.git-extension-pack",
     "donjayamanne.githistory",
-    "donjayamanne.jupyter",
     "DotJoshJohnson.xml",
     "dragos.scala-lsp",
     "dzannotti.vscode-babel-coloring",
@@ -89,14 +89,22 @@
     "LawrenceGrant.cql",
     "letrieu.expand-region",
     "lostintangent.vsls-whiteboard",
+    "lukas-tr.materialdesignicons-intellisense",
     "maelvalais.autoconf",
     "magicstack.MagicPython",
     "melak47.ninja-syntax",
     "michelemelluso.gitignore",
     "mkloubert.vs-script-commands",
+    "ms-azuretools.vscode-docker",
     "ms-kubernetes-tools.vscode-kubernetes-tools",
     "ms-mssql.mssql",
     "ms-python.python",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode-remote.remote-ssh-explorer",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.vscode-remote-extensionpack",
     "ms-vscode.azure-account",
     "ms-vscode.cpptools",
     "ms-vscode.vscode-typescript-tslint-plugin",
@@ -106,7 +114,6 @@
     "natewallace.angular2-inline",
     "ntc.integrated-terminal-tasks",
     "pejmannikram.vscode-auto-scroll",
-    "PeterJausovec.vscode-docker",
     "PKief.material-icon-theme",
     "redhat.java",
     "redhat.vscode-yaml",
@@ -134,6 +141,7 @@
     "waderyan.nodejs-extension-pack",
     "wmaurer.change-case",
     "xabikos.JavaScriptSnippets",
+    "xrc-inc.jsonnet-formatter",
     "yzane.markdown-pdf",
     "ziyasal.vscode-open-in-github"
   ],
@@ -154,6 +162,7 @@
     "amazonaws",
     "backend",
     "codelyzer",
+    "configmap",
     "datalab",
     "davnetwork",
     "davnn",
@@ -175,8 +184,11 @@
     "hparam",
     "hparams",
     "integerized",
+    "jobmanager",
+    "jsonnet",
     "keyspace",
     "lcov",
+    "lifecycle",
     "mariadb",
     "mesos",
     "mkdir",
@@ -199,6 +211,7 @@
     "shahar",
     "socko",
     "srfrnk",
+    "statefulset",
     "testnet",
     "textio",
     "tfrecordio",
@@ -303,6 +316,9 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.renderWhitespace": "none",
   "jsonnet.outputFormat": "json",
+  "jsonnet.extStrs": {
+    "IMAGE_VERSION": ""
+  },
   "liveshare.featureSet": "insiders",
   "tslint.autoFixOnSave": true,
   "javascript.preferences.quoteStyle": "single",
@@ -328,6 +344,10 @@
     {
       "name": "Gatsby Purple",
       "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
     },
     {
       "name": "Java Blue-Gray",
@@ -362,7 +382,7 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[java]": {
-    "editor.defaultFormatter": "none",
+    "editor.defaultFormatter": "redhat.java",
     "editor.formatOnSave": false
   },
   "[javascript]": {
@@ -383,5 +403,15 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "kafka.sasl.username": "",
   "kafka.hosts": "localhost:9092,localhost:9094,kafka-broker.default.svc.cluster.local:9092,kafka-broker.default.svc.cluster.local:9094",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonnet]": {
+    "editor.defaultFormatter": ""
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
 }
