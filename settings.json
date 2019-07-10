@@ -314,7 +314,8 @@
   "editor.renderWhitespace": "none",
   "jsonnet.outputFormat": "json",
   "jsonnet.extStrs": {
-    "IMAGE_VERSION": ""
+    "IMAGE_VERSION": "",
+    "__ksonnet/params": ""
   },
   "liveshare.featureSet": "insiders",
   "tslint.autoFixOnSave": true,
@@ -410,4 +411,5 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "workbench.startupEditor": "newUntitledFile",
 }
