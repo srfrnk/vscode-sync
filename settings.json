@@ -1,7 +1,6 @@
 {
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 2000,
-  "workbench.welcome.enabled": false,
   "git.confirmSync": false,
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
@@ -41,6 +40,7 @@
     "cmstead.jsrefactor",
     "codezombiech.gitignore",
     "CoenraadS.bracket-pair-colorizer",
+    "dandric.vscode-jq",
     "DavidAnson.vscode-markdownlint",
     "dbaeumer.jshint",
     "dbaeumer.vscode-eslint",
@@ -193,6 +193,7 @@
     "mesos",
     "mkdir",
     "moneo",
+    "notavailable",
     "npmjs",
     "parallelization",
     "params",
@@ -217,6 +218,8 @@
     "tfrecordio",
     "truthy",
     "typedoc",
+    "uncordon",
+    "ungarage",
     "ungit",
     "unmock",
     "varchar",
@@ -263,7 +266,6 @@
     "esversion": 6
   },
   "material-icon-theme.showUpdateMessage": false,
-  "workbench.panel.location": "bottom",
   "explorer.confirmDelete": false,
   "prettier.tabWidth": 2,
   "terminal.integrated.fontFamily": "Ubuntu mono",
@@ -279,7 +281,6 @@
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.rendererType": "dom",
   "java.errors.incompleteClasspath.severity": "ignore",
-  "[django-html]": {},
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "terminal.integrated.scrollback": 100000,
@@ -287,13 +288,11 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "breadcrumbs.enabled": true,
   "workbench.colorTheme": "Visual Studio Dark",
-  "files.useExperimentalFileWatcher": true,
   "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
   "java.format.settings.profile": "GoogleStyle",
   "python.jediEnabled": false,
   "java.configuration.checkProjectSettingsExclusions": false,
   "workbench.list.keyboardNavigation": "filter",
-  "workbench.tree.horizontalScrolling": true,
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
   "terminal.integrated.commandsToSkipShell": [
     "workbench.action.files.newUntitledFile",
@@ -304,16 +303,14 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.formatOnSave": true,
-  "unibeautify.defaultConfig": "/home/shahar/.config/Code/User/.unibeautifyrc",
-  "vs-kubernetes.outputFormat": "json",
   "vs-kubernetes": {
     "outputFormat": "json",
     "vs-kubernetes.knownKubeconfigs": [
       "/home/shahar/.kube/config"
     ],
-    "vs-kubernetes.kubeconfig": "/home/shahar/.kube/config"
+    "vs-kubernetes.kubeconfig": "/home/shahar/.kube/config",
+    "vs-kubernetes.minikube-path": "/home/shahar/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
   },
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.renderWhitespace": "none",
   "jsonnet.outputFormat": "json",
   "jsonnet.extStrs": {
@@ -388,7 +385,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.formatOnSave": true,
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -405,13 +401,13 @@
   },
   "kafka.sasl.username": "",
   "kafka.hosts": "localhost:9092,localhost:9094,kafka-broker.default.svc.cluster.local:9092,kafka-broker.default.svc.cluster.local:9094",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonnet]": {
-    "editor.defaultFormatter": ""
-  },
   "[scss]": {
     "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[jsonnet]": {
+    "editor.defaultFormatter": null
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
 }
