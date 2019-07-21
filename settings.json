@@ -107,6 +107,7 @@
     "ms-vscode-remote.vscode-remote-extensionpack",
     "ms-vscode.azure-account",
     "ms-vscode.cpptools",
+    "ms-vscode.Go",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "ms-vsliveshare.vsliveshare",
     "ms-vsliveshare.vsliveshare-audio",
@@ -412,4 +413,8 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "workbench.startupEditor": "newUntitledFile",
+  "go.useLanguageServer": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
 }
