@@ -28,6 +28,7 @@
   },
   "extensions.recommendations": [
     "actboy168.lua-debug",
+    "ahebrank.yaml2json",
     "alefragnani.project-manager",
     "alexnesnes.makeRunner",
     "Andreabbondanza.ignoregit",
@@ -309,7 +310,7 @@
     "vs-kubernetes.minikube-path": "/home/shahar/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
   },
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "all",
   "jsonnet.outputFormat": "json",
   "jsonnet.extStrs": {
     "IMAGE_VERSION": ""
@@ -405,4 +406,5 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "kafka.hosts": "localhost:9094",
+  "git.autofetchPeriod": 30,
 }
