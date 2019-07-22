@@ -1,7 +1,6 @@
 {
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 2000,
-  "workbench.welcome.enabled": false,
   "git.confirmSync": false,
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
@@ -50,7 +49,6 @@
     "dlang-vscode.dlang",
     "donjayamanne.git-extension-pack",
     "donjayamanne.githistory",
-    "donjayamanne.jupyter",
     "DotJoshJohnson.xml",
     "dragos.scala-lsp",
     "dzannotti.vscode-babel-coloring",
@@ -91,6 +89,7 @@
     "LawrenceGrant.cql",
     "letrieu.expand-region",
     "lostintangent.vsls-whiteboard",
+    "lukas-tr.materialdesignicons-intellisense",
     "maelvalais.autoconf",
     "magicstack.MagicPython",
     "melak47.ninja-syntax",
@@ -100,8 +99,15 @@
     "ms-kubernetes-tools.vscode-kubernetes-tools",
     "ms-mssql.mssql",
     "ms-python.python",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode-remote.remote-ssh-explorer",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.vscode-remote-extensionpack",
     "ms-vscode.azure-account",
     "ms-vscode.cpptools",
+    "ms-vscode.Go",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "ms-vsliveshare.vsliveshare",
     "ms-vsliveshare.vsliveshare-audio",
@@ -179,8 +185,11 @@
     "hparam",
     "hparams",
     "integerized",
+    "jobmanager",
+    "jsonnet",
     "keyspace",
     "lcov",
+    "lifecycle",
     "mariadb",
     "mesos",
     "mkdir",
@@ -258,7 +267,6 @@
     "esversion": 6
   },
   "material-icon-theme.showUpdateMessage": false,
-  "workbench.panel.location": "bottom",
   "explorer.confirmDelete": false,
   "prettier.tabWidth": 2,
   "terminal.integrated.fontFamily": "Ubuntu mono",
@@ -274,7 +282,6 @@
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.rendererType": "dom",
   "java.errors.incompleteClasspath.severity": "ignore",
-  "[django-html]": {},
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "terminal.integrated.scrollback": 100000,
@@ -282,13 +289,11 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "breadcrumbs.enabled": true,
   "workbench.colorTheme": "Visual Studio Dark",
-  "files.useExperimentalFileWatcher": true,
   "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
   "java.format.settings.profile": "GoogleStyle",
   "python.jediEnabled": false,
   "java.configuration.checkProjectSettingsExclusions": false,
   "workbench.list.keyboardNavigation": "filter",
-  "workbench.tree.horizontalScrolling": true,
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
   "terminal.integrated.commandsToSkipShell": [
     "workbench.action.files.newUntitledFile",
@@ -299,8 +304,6 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.formatOnSave": true,
-  "unibeautify.defaultConfig": "/home/shahar/.config/Code/User/.unibeautifyrc",
-  "vs-kubernetes.outputFormat": "json",
   "vs-kubernetes": {
     "outputFormat": "json",
     "vs-kubernetes.knownKubeconfigs": [
@@ -309,11 +312,11 @@
     "vs-kubernetes.kubeconfig": "/home/shahar/.kube/config",
     "vs-kubernetes.minikube-path": "/home/shahar/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
   },
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.renderWhitespace": "all",
   "jsonnet.outputFormat": "json",
   "jsonnet.extStrs": {
-    "IMAGE_VERSION": ""
+    "IMAGE_VERSION": "",
+    "__ksonnet/params": ""
   },
   "liveshare.featureSet": "insiders",
   "tslint.autoFixOnSave": true,
@@ -384,7 +387,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.formatOnSave": true,
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -399,12 +401,21 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "kafka.sasl.username": "",
+  "kafka.hosts": "localhost:9092,localhost:9094,kafka-broker.default.svc.cluster.local:9092,kafka-broker.default.svc.cluster.local:9094",
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
   "[jsonnet]": {
-    "editor.defaultFormatter": ""
+    "editor.defaultFormatter": null
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "kafka.hosts": "localhost:9094",
   "git.autofetchPeriod": 30,
+  "workbench.startupEditor": "newUntitledFile",
+  "go.useLanguageServer": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
 }
