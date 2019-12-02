@@ -12,18 +12,6 @@
       "editor.action.commentLine",
       "cursorDown"
     ],
-    "duplicate": [
-      "editor.action.clipboardCopyAction",
-      "cursorRight",
-      {
-        "command": "type",
-        "args": {
-          "text": " "
-        }
-      },
-      "editor.action.clipboardPasteAction",
-      "editor.action.formatSelection"
-    ]
   },
   "extensions.recommendations": [
     "actboy168.lua-debug",
@@ -41,6 +29,8 @@
     "codezombiech.gitignore",
     "CoenraadS.bracket-pair-colorizer",
     "dandric.vscode-jq",
+    "Dart-Code.dart-code",
+    "Dart-Code.flutter",
     "DavidAnson.vscode-markdownlint",
     "dbaeumer.jshint",
     "dbaeumer.vscode-eslint",
@@ -49,6 +39,7 @@
     "dlang-vscode.dlang",
     "donjayamanne.git-extension-pack",
     "donjayamanne.githistory",
+    "donjayamanne.jupyter",
     "DotJoshJohnson.xml",
     "dragos.scala-lsp",
     "dzannotti.vscode-babel-coloring",
@@ -112,6 +103,7 @@
     "ms-vsliveshare.vsliveshare",
     "ms-vsliveshare.vsliveshare-audio",
     "msjsdiag.debugger-for-chrome",
+    "mtxr.sqltools",
     "natewallace.angular2-inline",
     "ntc.integrated-terminal-tasks",
     "pejmannikram.vscode-auto-scroll",
@@ -154,18 +146,23 @@
     "CHROMECAST",
     "Flink",
     "Infigo",
+    "Ingester",
     "Injectable",
+    "Jupyter",
     "Kubernetes",
     "Nginx",
     "Postgres",
     "Toolchain",
+    "Unpatch",
     "Upsert",
     "akka",
     "amazonaws",
+    "astype",
     "backend",
     "codelyzer",
     "configmap",
     "datalab",
+    "dataset",
     "davnetwork",
     "davnn",
     "deserialize",
@@ -189,6 +186,7 @@
     "integerized",
     "jobmanager",
     "jsonnet",
+    "keras",
     "keyspace",
     "lcov",
     "lifecycle",
@@ -198,6 +196,7 @@
     "moneo",
     "notavailable",
     "npmjs",
+    "numpy",
     "objref",
     "parallelization",
     "params",
@@ -207,6 +206,8 @@
     "preinstall",
     "proto",
     "ptransform",
+    "pyplot",
+    "pythonpath",
     "readwrite",
     "repo",
     "repos",
@@ -214,6 +215,7 @@
     "ropsten",
     "scalability",
     "shahar",
+    "sibsp",
     "socko",
     "srfrnk",
     "statefulset",
@@ -222,6 +224,7 @@
     "tfrecordio",
     "truthy",
     "typedoc",
+    "unbatch",
     "uncordon",
     "ungarage",
     "ungit",
@@ -271,7 +274,6 @@
   },
   "material-icon-theme.showUpdateMessage": false,
   "explorer.confirmDelete": false,
-  "prettier.tabWidth": 2,
   "terminal.integrated.fontFamily": "Ubuntu mono",
   "terminal.integrated.fontSize": 16,
   "git.autofetch": true,
@@ -279,7 +281,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "explorer.confirmDragAndDrop": false,
   "gitlens.keymap": "none",
-  "prettier.singleQuote": true,
   "editor.wordWrapColumn": 200,
   "jshint.enable": false,
   "files.trimTrailingWhitespace": true,
@@ -294,7 +295,6 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
   "java.format.settings.profile": "GoogleStyle",
-  "python.jediEnabled": false,
   "java.configuration.checkProjectSettingsExclusions": false,
   "workbench.list.keyboardNavigation": "filter",
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
@@ -409,9 +409,7 @@
   "[scss]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
-  "[jsonnet]": {
-    "editor.defaultFormatter": null
-  },
+  "[jsonnet]": {},
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -421,4 +419,25 @@
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.activeIconPack": "angular",
+  "workbench.iconTheme": "material-icon-theme",
+  "go.inferGopath": true,
+  "python.jediEnabled": false,
+  "sqltools.connections": [
+    {
+      "askForPassword": false,
+      "dialect": "Cassandra",
+      "name": "local",
+      "port": 9042,
+      "server": "localhost",
+      "username": "root"
+    }
+  ],
+  "[jupyter]": {},
+  "workbench.colorCustomizations": {
+    "activityBar.activeBorder": "#00a2ff",
+    "activityBar.activeBackground": "#00a2ff30"
+  },
+  "editor.minimap.scale": 1
 }
