@@ -161,6 +161,7 @@
     "backend",
     "codelyzer",
     "configmap",
+    "cqlsh",
     "datalab",
     "dataset",
     "davnetwork",
@@ -188,6 +189,7 @@
     "jsonnet",
     "keras",
     "keyspace",
+    "kubectl",
     "lcov",
     "lifecycle",
     "mariadb",
@@ -198,6 +200,7 @@
     "npmjs",
     "numpy",
     "objref",
+    "overnightjs",
     "parallelization",
     "params",
     "pcoll",
@@ -319,6 +322,7 @@
   "jsonnet.outputFormat": "json",
   "jsonnet.extStrs": {
     "IMAGE_VERSION": "",
+    "REGISTRY": "",
     "__ksonnet/params": ""
   },
   "liveshare.featureSet": "insiders",

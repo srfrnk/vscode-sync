@@ -5,5 +5,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "mooving",
+		"rootPath": "/data/shahar/code/mooving/mooving-dev-ops/mooving.code-workspace",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
