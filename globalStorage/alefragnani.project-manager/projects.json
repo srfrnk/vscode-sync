@@ -12,5 +12,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "device-detector",
+		"rootPath": "/data/shahar/code/device-detector.code-workspace",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]

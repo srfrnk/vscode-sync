@@ -196,6 +196,7 @@
     "mesos",
     "mkdir",
     "moneo",
+    "mooving",
     "notavailable",
     "npmjs",
     "numpy",
@@ -443,5 +444,6 @@
     "activityBar.activeBorder": "#00a2ff",
     "activityBar.activeBackground": "#00a2ff30"
   },
-  "editor.minimap.scale": 1
+  "editor.minimap.scale": 1,
+  "search.location": "panel"
 }
